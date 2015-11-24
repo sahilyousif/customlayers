@@ -1,0 +1,13 @@
+{
+  "showLegend": true,
+  "VisibleLayers" : "",
+  "description" : "",
+  "contextMenu": {
+	"ZoomTo": true,
+	"Transparency": true,
+	"EnableOrDisablePopup": true,
+	"MoveupOrMovedown": true,
+	"OpenAttributeTable": true,
+	"DescriptionOrShowItemDetailsOrDownload": true
+  }
+}

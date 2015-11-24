@@ -1,0 +1,36 @@
+
+.jimu-widget-customlayers-setting {
+  font-size: 14px;
+  color: #596679;
+}
+
+.jimu-widget-customlayers-setting .show-legend-checkbox {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.jimu-widget-customlayers-setting .show-legend-checkbox .label{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.jimu-widget-customlayers-setting .jimu-checkout {
+  display: table-cell;
+}
+
+
+.jimu-widget-customlayers-setting .title {
+  font-size: 14px;
+  color: #596679;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-customlayers-setting .control-popupmenu-part .label {
+  padding-bottom: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}

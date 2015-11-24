@@ -1,0 +1,58 @@
+<div>
+  <table class="show-legend-checkbox">
+    <tbody>
+      <tr>
+        <td data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="showLegend">
+        </td>
+        <td class="label">${nls.showLegend}</td>
+      </tr>     
+    </tbody>
+  </table>
+  
+  <div class="title">Select visible layers for the widget. If you have already selected layers and they are not visible, please close this dialog and open settings again.</div>
+  <select multiple="true" id="multiLayerList" data-dojo-attach-point="multiLayerList"></select>
+ 
+  <br/><br/>
+  <div class="title">Enter a description for the widget. The desciption appears when user opens the widget for the first time. (HTML allowed)</div>
+  <textarea id="textarea2" name="textarea2" data-dojo-attach-point="textarea2" rows="6" cols="50" style="width:auto;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </textarea>
+
+  <br/><br/>
+  <div class="control-popupmenu-part" data-dojo-attach-point="controlPopupMenuPart">
+    <div class="title">${nls.controlPopupMenuTitle}</div>
+    <table>
+      <tbody>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="zoomto" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="zoomto">
+          </td>
+          <td class="label">${nls.zoomto}</td>
+        </tr>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="transparency" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="transparency">
+          </td>
+          <td class="label">${nls.transparency}</td>
+        </tr>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="controlPopup" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="controlPopup">
+          </td>
+          <td class="label">${nls.controlPopup}</td>
+        </tr>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="moveup movedown" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="moveupDown">
+          </td>
+          <td  class="label">${nls.moveUpAndDown}</td>
+        </tr>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="table" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="table">
+          </td>
+          <td class="label">${nls.attributeTable}</td>
+        </tr>
+        <tr>
+          <td class="control-popupmenu-item" itemKey="url" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="url">
+          </td>
+          <td  class="label">${nls.url}</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
